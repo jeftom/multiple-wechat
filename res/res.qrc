@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>loginwnd/passwd.png</file>
+        <file>loginwnd/username.png</file>
+        <file>loginwnd/add.png</file>
+        <file>mainwnd/businesscn.png</file>
+        <file>mainwnd/checkup.png</file>
+        <file>mainwnd/headbg.png</file>
+        <file>mainwnd/labelmg.png</file>
+        <file>mainwnd/close.png</file>
+        <file>mainwnd/max.png</file>
+        <file>mainwnd/min.png</file>
+        <file>mainwnd/recover.png</file>
+        <file>mainwnd/add_hover.png</file>
+        <file>mainwnd/add_normal.png</file>
+        <file>mainwnd/add_pressed.png</file>
+        <file>mainwnd/logo.png</file>
+        <file>loginwnd/logo.png</file>
+    </qresource>
+</RCC>

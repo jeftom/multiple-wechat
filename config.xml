@@ -1,0 +1,32 @@
+<config>
+<!-- 微信安装路径 -->
+<wechatInstallPath path=""></wechatInstallPath>
+<!-- 获取验证码 -->
+<getAuthorizedCode url="http://api.tmtzh.cn/individual/verificationCode"></getAuthorizedCode>
+<!-- 登录 -->
+<login url="http://api.tmtzh.cn/individual/login"></login>
+<!-- 绑定和解绑手机 -->
+<bindPhone url="http://api.tmtzh.cn/individual/bindWxUserPhone"></bindPhone>
+<!-- 获取用户信息 -->
+<getUserMsg url="http://api.tmtzh.cn/individual/userBrief"></getUserMsg>
+<!-- 设置备注 -->
+<setRemark url = "http://api.tmtzh.cn/individual/bindWxUserRemark"></setRemark>
+<!-- 设置用户标签 -->
+<setUserLabel url="http://api.tmtzh.cn/individual/bindWxUserLabel"></setUserLabel>
+<!-- 删除用户标签 -->
+<deleteUserLabel url="http://api.tmtzh.cn/individual/deleteWxUserLabel"></deleteUserLabel>
+<!-- 获取商家自定义标签 -->
+<business url="http://api.tmtzh.cn/individual/getLabels"></business>
+<!-- 获取系统快捷回复 -->
+<getSysReply url="http://api.tmtzh.cn/individual/quickReply"></getSysReply>
+<!-- 商家自定义快捷回复 -->
+<businessCustomReply url="http://api.tmtzh.cn/individual/userQuickReply"></businessCustomReply>
+<!-- 编辑和添加商家自定义回复 -->
+<setBusinessCustomReply url="http://api.tmtzh.cn/individual/setQuickReply"></setBusinessCustomReply>
+<!-- 新建和编辑标签 -->
+<createAndEditLabel url="http://api.tmtzh.cn/individual/bindLabel"></createAndEditLabel>
+<!-- 删除标签 -->
+<deleteLabel url="http://api.tmtzh.cn/individual/deleteLabel"></deleteLabel>
+<!-- 基本信息 -->
+<basicInfo url="http://api.tmtzh.cn/individual/baseInfo"></basicInfo>
+</config>
